@@ -2,6 +2,12 @@
 {% load static %}
 {% block content %}
 
+      <!--  Hero with CTA -->
+      <section>
+         <div class="img-fluid container" id="img-hero">
+            <img src="{% static 'img/landing-page-img1.jpg' %}" alt="...">
+         </div>
+      </section>
      <!-- hero (will have infographic video on what is mindfulness - using keyframes) -->
      <section>
          <div class="embed-responsive embed-responsive-21by9">
@@ -10,19 +16,28 @@
      </section>
      <!--  below hero is a CTA which leads to employer solutions page -->
      <section>
-        <div>
-         <img src="{% static 'img/landing-page-img1.jpg' %}" class="card-img-top" alt="...">
+        <div class="container yellow-image img-fluid">
+        <img src="{% static 'img/landing-page-img1.jpg' %}" class="card-img-top" alt="...">
+         <button id="button" class="btn btn-lg">Why is employee happiness good for business</button>
         </div>
-        <div class="center">
-          <button id="button">Why is employee happiness good for business</button>
-        </div>
+       
+        <!-- about us - blurb and what we do plus a CTA linking to about us page -->
      </section>
-     <!-- about us - blurb and what we do plus a CTA linking to about us page -->
      <section>
-        <h2>what we do</h2>
-        <div class="center1">
-         <button id="button">Find out more!</button>
+        <div>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/uljiTtwZz7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text-center">
+         <button id="button" class="btn btn-lg">Find out more!</button>
        </div>
      </section>
+     <!-- signup form newsletter -->
+     <section>
 
+     </section>
+     <!-- find us/ contact us OR what other companies about workforce wellbeing -->
+
+     <section>
+
+     </section>
      {% endblock %}   

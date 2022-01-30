@@ -1,14 +1,9 @@
 
-* {
-    margin: 0;
-    padding: 0;
-  }
 
 /* Headings and Logo */
 h1,
 h2,
 #logo {
-  font-family: Cinzel, sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: black;
@@ -36,14 +31,18 @@ h2,
 div {
   margin-top: 30px;
 }
-/* Emplyee button */
 
-.container {
-  text-align: center;
+.img-hero {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
 }
 
+/* Emplyee button */
+
 #button {
-  display: inlinec-block;
+  display: center; 
   padding: 30px 15px 25px;
   font-size: 24px;
   cursor: pointer;
@@ -65,19 +64,21 @@ div {
   transform: translateY(4px);
 }
 
-/* button 2 */
-
-.center {
-  margin-left: 130px;
+.yellow-image {
+  position: relative;
+  margin: 0;
+  padding: 0;
 }
 
-.center1 {
-  margin: 0;
-  top: auto;
-  margin-left: 300px;
-  margin-right: auto;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.yellow-image img {
+width: 100vh;
+height: auto;
+}
+
+.yellow-image .btn {
+  position: absolute;
+  top: 50%;
+  left: 10%;
 }
 
 /* footer */
