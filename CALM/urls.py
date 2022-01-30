@@ -1,4 +1,4 @@
-from .views import index, solutions, about
+from .views import base, solutions, about
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
@@ -6,8 +6,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
 
-    path('',  index),
+    path('',  base),
     path('solutions/',  solutions),
-    path('about_us/',  solutions),
+    path('about/',  about),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
