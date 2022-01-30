@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+{% endblock %}
 
 {% block corecss %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -29,10 +30,10 @@
         <div class="collapse navbar-collapse align-self-end" id="navbarSupportedContent">
             <ul id="nav-ul" class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="{% url 'base' %}">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{% url 'about' %}">About</a>
                 </li>
                 <li class="list-inline-item dropdown">
                     <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login/Register</a>
@@ -108,63 +109,7 @@
    </div>
    
  
- </footer>
-     <!-- Font awesome script -->   
-     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    
-        <!-- Grid row -->
-        <div class="row">
-    
-            <!-- Grid column -->
-            <div class="col-md-6 mt-md-0 mt-3">
-    
-            <!-- Content -->
-            <h5 class="text-uppercase">Centered</h5>
-            <p>Helping your business find its Center.</p>
-    
-            </div>
-        <!-- Grid column -->
-    
-            <hr class="clearfix w-100 d-md-none pb-3">
-        
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-        
-                <!-- Links -->
-                <h5 class="text-uppercase">Links</h5>
-        
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Link 1</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 2</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 3</a>
-                    </li>
-                    <li>
-                        <a href="#!">Link 4</a>
-                    </li>
-                </ul>
-        
-            </div>
-            <!-- Grid column -->
-        
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
-
-            </div>
-        </div>
-    </div>
-    
-    
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">
-        <p>© 2021 Copyright:</p>
-        <p> Centered</p>
-    </div>
-    
+ 
     
     </footer>
     {% block postloadjs %}
