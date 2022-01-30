@@ -1,6 +1,5 @@
-ul {
-    color: red !important;
-}
-body {
-    background-color: red;
+/*------------------------------------------------------- navbar */
+#nav-ul {
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
