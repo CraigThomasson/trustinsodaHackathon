@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +33,53 @@ h2,
   color: inherit;
 }
 
+div {
+  margin-top: 30px;
+}
+/* Emplyee button */
+
+.container {
+  text-align: center;
+}
+
+#button {
+  display: inlinec-block;
+  padding: 30px 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #085394;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover {background-color: #3a78d4}
+
+#button:active {
+  background-color: #5689d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* button 2 */
+
+.center {
+  margin-left: 130px;
+}
+
+.center1 {
+  margin: 0;
+  top: auto;
+  margin-left: 300px;
+  margin-right: auto;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 /* footer */
 footer {
     margin-top: 50px;
@@ -51,3 +99,15 @@ footer {
     padding: 5%;
     color: black;
   }
+
+ul {
+    color: rgb(243, 152, 152) !important;
+}
+
+
+
+/*------------------------------------------------------- navbar */
+#nav-ul {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
