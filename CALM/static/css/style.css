@@ -2,5 +2,26 @@ ul {
     color: red !important;
 }
 body {
-    background-color: red;
+    background-color: whitesmoke;
+}
+
+/* Solutions Page styling */
+#sol-intro {
+    display: flex;
+    justify-content: center;
+}
+
+#eight-steps {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 3rem;
+    color: #085394;
+}
+
+#steps-para {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 1.5rem;
 }
