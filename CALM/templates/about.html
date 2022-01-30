@@ -1,5 +1,21 @@
 {% extends 'site_base.html' %}
 {% load static %}
 {% block content %}
-<h1>test</h1>
+
+<div id="about-container" class="container">
+   <h1 id="steps">Our mission</h1>
+    <div class="card-deck">
+        <div class="card shadow p-2 mb-5 rounded">
+          <img src="{% static 'img/About-Us_hero.png' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3 class="card-title">WELLBING IN THE WORLPLACE</h3>
+            <p class="card-text">We are a consultation body that provides training and resources to support management teams and business to improve wellbeing in the work place.</p>
+            <p>We will help you achieve ISO and BSI accreditation.</p>
+            <p>Exclusive membership that offers solutions by role.</p>
+            <p>Exclusive round table discussions vi zoom or slack. </p>
+          </div>
+         </div>
+      </div>
+   </div>
+
 {% endblock %} 
