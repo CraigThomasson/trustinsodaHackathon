@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.shortcuts import render
 
 def base(request):
-    return render(request, 'base.html')
+    return render(request, 'site_base.html')
 
 def solutions(request):
     return render(request, 'solutions.html')

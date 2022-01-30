@@ -1,3 +1,6 @@
 ul {
     color: red !important;
 }
+body {
+    background-color: red;
+}
