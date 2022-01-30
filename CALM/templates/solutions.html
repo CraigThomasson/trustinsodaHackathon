@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 {% load static %}
->>>>>>> 36b0ab89b1fc24a27a1c2da7ef564d29697690da
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,15 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
     <title>Document</title>
 </head>
 <body>
     <!--infographics: why happier workforce is better for the business-->
     <section>
-        <div>
-            <iframe src="" frameborder="0"></iframe>
+        <div class="embed-responsive embed-responsive-21by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gNY2pyH13FA" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
         </div>
-
+    </section>
+    <section>
+      <div >
+        <p id="testing">yellow font</p>
+      </div>
     </section>
     <!--8 steps to accelerate mindfulness at work-->
     <section>
