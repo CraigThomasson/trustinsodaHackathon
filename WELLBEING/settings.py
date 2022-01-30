@@ -55,6 +55,12 @@ INSTALLED_APPS = [
 
 ]
 
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dwshsbqpb',
+    'API_KEY': '311231532681886',
+    'API_SECRET': '311231532681886',
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
