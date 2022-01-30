@@ -1,14 +1,10 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> e8fb4bbb6ef541b7df20da47759aa784c2308e75
 /*------------------------------------------------------- navbar */
 #nav-ul {
     margin-bottom: 20px;
     margin-left: 30px;
 }
 
-<<<<<<< HEAD
 #links-footer {
     margin-right: 10px;
 }
@@ -39,7 +35,6 @@
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
     font-size: 50px;
-=======
 /* ------- Allauth form formatting ------- */
 
 .allauth-form-inner-content p {
@@ -104,5 +99,4 @@
 .allauth-form-inner-content a:hover {
     color: #085394;
     border-color: #222;
->>>>>>> e8fb4bbb6ef541b7df20da47759aa784c2308e75
 }
