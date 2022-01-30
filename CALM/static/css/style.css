@@ -7,3 +7,10 @@
 #links-footer {
     margin-right: 10px;
 }
+
+#footer {
+    background-color: #085394;
+    color: white;
+
+    margin-top: 20px;
+}
