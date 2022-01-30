@@ -43,6 +43,10 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'CALM',
+
+    # Others
+    'crispy_forms',
+
 ]
 
 MIDDLEWARE = [
@@ -57,10 +61,15 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'WELLBEING.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,6 +78,11 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            # Access from crispy form in all templates be default
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
