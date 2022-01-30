@@ -14,6 +14,7 @@ body {
 #eight-steps {
     display: flex;
     justify-content: center;
+    text-align: center;
     margin: 2rem;
     font-size: 3rem;
     color: #085394;
