@@ -21,7 +21,5 @@ urlpatterns = [
 
     path('', include('CALM.urls')),
     path('admin/', admin.site.urls),
-   
+    path('accounts/', include('allauth.urls')),
 ]
-
-
