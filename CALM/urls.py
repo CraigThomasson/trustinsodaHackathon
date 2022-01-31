@@ -1,5 +1,5 @@
 from .views import base, solutions, about, index
-from django.urls import path
+from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 from . import views
@@ -7,7 +7,7 @@ from . import views
 
 urlpatterns = [
 
-    path('',  views.base, name="base"),
+    path('', views.base, name="base"),
     path('index/', views.index, name="index"),
     path('solutions/',  views.solutions, name='solutions'),
     path('about/',  views.about, name='about'),

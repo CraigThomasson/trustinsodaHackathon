@@ -7,6 +7,4 @@ class Company(models.Model):
     company_name = models.CharField(max_length=200)
     company_size = models.IntegerField()
     sector = models.CharField(max_length=200)
-    accreditation_level = models.CharField(max_length=100)
-
-   
+    accreditation_level = models.CharField(max_length=100)   
