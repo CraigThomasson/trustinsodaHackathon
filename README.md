@@ -40,12 +40,6 @@
 
 ![Wireframe of the employer profile page](Documentation/Wireframes/employeeprofilepage.png)
 
-### Feaures
-
-* Main Menu
-
- ![Mockup of the app across different screen sizes](www.google.com)
-
 ## Technologies
 
 ### Languages Used
@@ -206,11 +200,6 @@ Step 5 - Select Github Deployment Method.
 - Your app will update/rebuild each time you push to Github, which will not conserve your dyno hours in Heroku
 - To access your deployed app, scroll to the top and click 'Open app'.
 
-## Credits and Learning Experience
-
-### Content
-
-### Media
-
 ### Acknowledgements
 
+A huge thank you to the Code Institue and Trust in Soda team for an incredible hackathon.
