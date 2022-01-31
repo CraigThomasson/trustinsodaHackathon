@@ -204,3 +204,90 @@ ul {
     color: #085394;
     border-color: #222;
 }
+
+/* Solutions Page styling */
+#we-help-intro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    font-size: 3rem;
+    color: #085394;
+}
+
+#we-help-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+}
+
+#solutions-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}    
+
+.solutions-box {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;  
+}
+
+#insights {
+    background-color: #f7a302;
+}
+
+#insights-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
+}
+
+#training {
+    background-color: #3a9ffb;
+}
+
+#training-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
+}
+
+#membership {
+    background-color: rgb(173, 118, 171);
+}
+
+#membership-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
+}    
+
+#events {
+    background-color: olivedrab;
+}
+
+#events-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
+}
+
+#eight-steps {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+    font-size: 2.5rem;
+    color: #085394;
+}
+
+#steps-para {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.steps-headers {
+    color: #085394;
+    border-color: #222;
+}
