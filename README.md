@@ -1,108 +1,229 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome CraigThomasson,
+# Centered
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ ![Mockup of the app across different screen sizes](www.google.com)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Overview
 
-## Gitpod Reminders
+### Project Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+*  
+* 
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+* As a user, 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+### Wireframes
 
-Another blue button should appear to click: _Open Browser_.
+* Honme Page/Landing Page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ ![Wireframe of landing page when the site opens](Documentation/Wireframes/homepage.png)
 
-To log into the Heroku toolbelt CLI:
+* Employer Page
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ ![Wireframe of employer info page](Documentation/Wireframes/employerpage.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* About us page
 
-------
+ ![Wireframe of the about us page](Documentation/Wireframes/aboutus.png)
 
-## Release History
+* Log in page
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ ![Wireframe of the log in page](Documentation/Wireframes/login.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* Sign Up Page
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ ![Wireframe of the registration page](Documentation/Wireframes/signuppage.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Contact Us Page
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![Wireframe of the contact us page](Documentation/Wireframes/contactus.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* Employer Profile Page
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Wireframe of the employer profile page](Documentation/Wireframes/employeeprofilepage.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Schema
+ 
+### Feaures
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Main Menu
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ ![Mockup of the app across different screen sizes](www.google.com)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* [Python](https://www.python.org/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-------
+### Libraries and Programs Used
 
-## FAQ about the uptime script
+#### Libraries Used
 
-**Why have you added this script?**
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - A CSS framework to quickly design and customize responsive mobile-first sites.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* [Django](https://www.djangoproject.com/) - A high-level Python web framework that encourages rapid development and clean, pragmatic design.
 
-**How will this affect me?**
+* [django-allauth](https://www.python.org/) - An integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) - An package that gives control to the rendering behavior of your Django forms.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+* [cloudinary](https://pypi.org/project/cloudinary/) - Cloudinary is a cloud service that offers a solution to a web application’s entire image management pipeline.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+* [dj3-cloudinary-storag](https://pypi.org/project/dj3-cloudinary-storage/) - A Django package that provides Cloudinary storages for both media and static files as well as management commands for removing unnecessary files.
 
-**So….?**
+* [dj-database-url](https://pypi.org/project/django-database-url/)- This simple Django utility allows you to utilize the 12factor inspired DATABASE_URL environment variable to configure your Django application.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+* [django-heroku](https://pypi.org/project/django-heroku/) - This package automatically configures your Django application to work on Heroku. 
 
-**Can I opt out?**
+* [gunicorn](https://gunicorn.org/) - Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* [oauthlib](https://oauthlib.readthedocs.io/en/latest/) - OAuthLib is a framework which implements the logic of OAuth1 or OAuth2 without assuming a specific HTTP request object or web framework. 
+
+* [Psycopg2](https://pypi.org/project/psycopg2/) - Psycopg2 is the most popular PostgreSQL database adapter for the Python programming language.
+
+* [python3-openid](https://pypi.org/project/python3-openid/) - This is a set of Python packages to support use of the OpenID decentralized identity system in your application,
+
+* [pytz](https://pypi.org/project/pytz/) - This library allows accurate and cross platform timezone calculations
+
+* [requests-oauthlib](https://pypi.org/project/sqlparse/) - This package provides first-class OAuth library support for python requests that would be complex to handle otherwise.
+
+* [sqlparse](https://pypi.org/project/sqlparse/) -  A non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements.
+
+* [whitenoise](http://whitenoise.evans.io/en/stable/) - A package that simplifies static file serving for Python web apps
+
+* [asgiref](https://asgi.readthedocs.io/en/latest/introduction.html) - It makes it easier to call synchronous APIs from async code and asynchronous APIs from synchronous code so it's easier to transition code from one style to the other.
+
+
+#### Programs Used
+
+* [Git](https://www.atlassian.com/git) - used for branching, merging, and rewriting repository history.
+
+* [GitHub](https://github.com/) - used a hosting service for Git repositories.
+
+* [GitHub Projects Board](https://github.com/CraigThomasson/trustinsodaHackathon/projects) - used as kanban to-do list for tracking issues and feature progress.
+
+* [Gitpod](https://gitpod.io/) - used as a workspace for Git repositories.
+
+* [Heroku](https://www.heroku.com/) - used to deploy project. 
+
+* [Lucidchart](https://www.lucidchart.com/) - used to create flow charts. 
+
+* [Am I responsive](http://ami.responsivedesign.is/) - used to generate responsive mockup image at the top/beginning of the README.
+
+* [Microsoft Photos](https://www.microsoft.com/en-us/p/microsoft-photos/9wzdncrfjbh4?) - used to resize images.
+
+* [Grammarly](https://www.microsoft.com/en-us/p/microsoft-photos/9wzdncrfjbh4?) - used to ensure documentation is clear and correct.
+
+
+## Testing
+
+For all testing documentation, please refer to [TESTING](TESTING.md)
+
+## Deployment
+
+### Local Deployment
+
+To make a local copy of this repository, you can type the following into your IDE terminal:
+
+- `git clone https://github.com/CraigThomasson/trustinsodaHackathon.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CraigThomasson/trustinsodaHackathon)
+
+You will need to create an ```env.py``` based on the sample file [envsample.py](https://github.com/CraigThomasson/trustinsodaHackathon/blob/main/envsample.py) as a template
+
+You will then need to add this file ```env.py``` to ```.gitignore``` to prevent it being uploaded to Github and exposed publicly. 
+
+You can store credentials in ```env.py``` which act as environmental variables. Your app can use environmental variables but their values will not be displayed or disclosed in the code. These can be added to Heroku in the deployment steps below. 
+
+### Cloudinary
+
+Step 1 - Creating an account.
+
+- If you already have a Heroku account, please sign in to your existing account.
+- If you don't, go to [Cloudinary](https://cloudinary.com/) and create a free account.
+
+Step 2: Access API Environment variable
+
+- Once logged in, navigate to the dashboard. 
+- Copy the API Environment variable.
+
+### Heroku Deployment
+
+Prerequisites
+
+- A Github repository 
+- Ensuring your [requirements.txt](https://github.com/CraigThomasson/trustinsodaHackathon/blob/main/requirements.txt) is up to date. You can do so using by entering the following line in your terminal:
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+pip3 freeze --local > requirements.txt
 ```
 
-**Anything more?**
+Step 1 - Creating an account.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- If you already have a Heroku account, please sign in to your existing account.
+- If you don't, go to [Heroku.com](https://www.heroku.com) and create a free account.
 
----
+Step 2: Create an app.
 
-Happy coding!
+- Click on the 'New' drop down in the upper right-hand corner.
+- Select 'Create a new app'.
+- When choosing an app name, it will need to be unique to Heroku.
+- If the Github repository name or project name is not available, choose a name similar by adding other words, dashes, letters or numbers.
+- Enter your chosen 'App name' and select your region.
+- Click the 'Create app' button.
+- Once app created, on the 'Overview' tab, click "Configure Add-ons".
+- Add the Cloudinary and Heroku Postgres add ons.
+- Go to the settings tab of Heroku Postgres add on.
+- Click view credentials and copy the URL. 
+
+
+Step 3: Add Config Vars.
+
+- Go to the 'Settings' tab in your app.
+- Scroll down to the 'Config Vars' section and click the 'Reveal Config Vars' button.
+- We are going to add these config vars.
+- KEY = DATABASE_URL and VALUE is URL copied from the Heroku Postgres earlier.
+- KEY = SECRECT_KEY and VALUE is the secret key copied from the env.py file in gitpod.
+- KEY = CLOUDINARY_URL and VALUE is the copied from the dashboard of your Cloudinary account.
+
+
+Step 4: Add Buildpacks.
+
+- On the same 'Settings' tab in your app, scroll down to the 'Buildpacks' section. 
+- The buildpacks need to be listed in your Settings.
+- You'll add the Python buildpack.
+
+Step 5 - Select Github Deployment Method.
+
+- Go to the 'Deploy' tab in your app.
+- In the Deployment method' section,  select 'GitHub' and click 'Connect to GitHub'.
+- Search for your Github repository name, which will create a list of repository names.
+- Click the 'Connect' button, and your Heroku app will link to your Github repository.
+- You can choose manual deploys for your app; click 'Deploy Branch' in the 'Manual Deploy' section.
+- Once successfully deployed, a green tick will appear next to Deploy to Heroku
+- Your app will not update/rebuild each time you push to Github, which will conserve your dyno hours in Heroku. 
+- You will need to click 'Deploy Branch' each time you want the app to rebuild after pushing your changes to Github. 
+- Or you can choose automatic deploys for your app, 
+- Your app will update/rebuild each time you push to Github, which will not conserve your dyno hours in Heroku
+- To access your deployed app, scroll to the top and click 'Open app'.
+
+## Credits and Learning Experience
+
+### Content
+
+### Media
+
+### Acknowledgements
+
