@@ -2,21 +2,13 @@
 
 # Centered
 
- ![Mockup of the app across different screen sizes](www.google.com)
+ ![Mockup of the app across different screen sizes](Documentation/Wireframes/respsonsive.png)
 
 ## Overview
 
-### Project Goals
-
-*  
-* 
+* We want to create a culture shift in companies around the world by engaging with senior leaders through our program that offers many benefits.
 
 ## UX
-
-### User Stories
-
-* As a user, 
-
 
 ### Wireframes
 
@@ -48,8 +40,6 @@
 
 ![Wireframe of the employer profile page](Documentation/Wireframes/employeeprofilepage.png)
 
-### Schema
- 
 ### Feaures
 
 * Main Menu
@@ -125,10 +115,6 @@
 
 * [Grammarly](https://www.microsoft.com/en-us/p/microsoft-photos/9wzdncrfjbh4?) - used to ensure documentation is clear and correct.
 
-
-## Testing
-
-For all testing documentation, please refer to [TESTING](TESTING.md)
 
 ## Deployment
 
