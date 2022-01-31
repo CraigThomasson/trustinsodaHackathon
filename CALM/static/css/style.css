@@ -16,7 +16,6 @@ h2,
   letter-spacing: 1px;
 }
 
-
 #menu li {
   float: right;
   list-style-type: none;
@@ -38,6 +37,9 @@ div {
   margin: 0 auto;
   width: 100%;
 }
+
+/* utility */
+
 
 /* Emplyee button */
 
@@ -70,11 +72,6 @@ div {
   padding: 0;
 }
 
-.yellow-image img {
-width: 100vh;
-height: auto;
-}
-
 .yellow-image .btn {
   position: absolute;
   top: 50%;
@@ -104,8 +101,6 @@ footer {
 ul {
     color: rgb(243, 152, 152) !important;
 }
-
-
 
 /*------------------------------------------------------- navbar */
 #nav-ul {
