@@ -1,65 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    {% load static %}
-    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-           <a href=“index.html”>
-              <h1 id=“logo”><i class=“fab fa-fort-awesome-alt”></i>Centered</h1>
-           </a>
-           <ul id=“menu”>
-              <li>
-                 <a href=“contact.html”>Contact</a>
-              </li>
-              <li>
-                 <a href=“about”>About Us</a>
-              </li>
-              <li>
-                 <a href=“login.html”>Login/Register</a>
-              </li>
-           </ul>
-        </nav>
-     </header> 
-     
-     <!-- hero (will have infographic video on what is mindfulness - using keyframes) -->
-     <section></section>
-     <!--  below hero is a CTA which leads to employer solutions page -->
-     <section></section>
-     <!-- about us - blurb and what we do plus a CTA linking to about us page -->
-     <section></section>
+{% extends 'site_base.html' %}
+{% load static %}
+{% block content %}
 
-     <footer>
-        <ul class="social-networks">
-           <li>
-              <a href="https://facebook.com" target="_blank" rel= "noopener" 
-                 aria-label= "Visit our facebook page (opens in new tab)"><i class="fab fa-facebook"></i></a>
-           </li>
-           <li>
-              <a href="https://instagram.com" target="_blank" rel= "noopener" 
-                 aria-label= "Visit our instagram page (opens in new tab)"><i class="fab fa-instagram"></i></a>
-           </li>
-           <li>
-              <a href="https://twitter.com" target="_blank" rel= "noopener" 
-                 aria-label= "Visit our twitter page (opens in new tab)"><i class="fab fa-twitter-square"></i></a>
-           </li>
-           <li>
-              <a href="https://youtube.com" target="_blank" rel= "noopener" 
-                 aria-label= "Visit our youtube page (opens in new tab)"><i class="fab fa-youtube"></i></a>
-           </li>
-        </ul>
-        <small>&copy; Copyright 2022, Centered. All rights reserved</small>
-     </footer>
-     <!-- Font awesome script -->   
-     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-</body>
-</html>
+    
+     <!-- hero (will have infographic video on what is mindfulness - using keyframes) -->
+     <section>
+         <div class="embed-responsive embed-responsive-21by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hCOlYnQR-1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+     </section>
+     <!--  below hero is a CTA which leads to employer solutions page -->
+     <section>
+        <div class="container-fluid yellow-image">
+        <img src="{% static 'img/landing-page-img1.jpg' %}" class="card-img-top img-fluid" alt="...">
+         <button id="button" class="btn btn-lg">Read More</button>
+            <p>Why Happy Employees Are Good for Business</p>
+        
+        </div>
+       
+        <!-- about us - blurb and what we do plus a CTA linking to about us page -->
+     </section>
+     <section>
+        <div class="embed-responsive embed-responsive-21by9">
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/uljiTtwZz7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text-center">
+         <button id="button" class="btn btn-lg">Find out more!</button>
+       </div>
+     </section>
+     <!-- signup form newsletter -->
+     <section>
+
+     </section>
+     <!-- find us/ contact us OR what other companies about workforce wellbeing -->
+     {% endblock %}   
