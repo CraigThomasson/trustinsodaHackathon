@@ -20,6 +20,29 @@
 </head>
 <body>
     <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="#">
+            <img src="{% static 'img/Centered_v1.png' %}" width="150" height="150" alt="centered Logo">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       
+         <div class="collapse navbar-collapse align-self-end" id="navbarSupportedContent">
+           <ul id="nav-ul" class="navbar-nav mr-auto">
+             <li class="nav-item active">
+               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">About</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Login/Register</a>
+             </li>
+           </ul>
+         </div>
+       </nav>
+     </header> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
                 <img src="{% static 'img/Centered_v1.png' %}" width="150" height="150" alt="centered Logo">
@@ -109,7 +132,13 @@
    </div>
    
  
+<<<<<<< HEAD
+ </footer>
+     <!-- Font awesome script -->   
+     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+=======
  
+>>>>>>> a2bb5d3c4f80d13b4eed21d8dbcfca93257ac04e
     
     </footer>
     {% block postloadjs %}

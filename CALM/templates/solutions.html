@@ -1,65 +1,209 @@
 {% extends 'site_base.html' %}
 {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Document</title>
+</head>
+<body>
 {% block content %}
-    <!--infographics: why happier workforce is better for the business-->
+    <!--infographics: why a happier workforce is better for the business-->
     <section>
-        <div>
-            <iframe src="" frameborder="0"></iframe>
+      <div class="embed-responsive embed-responsive-21by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rX_LF8ZEdgo" title="YouTube video player" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+    <!-- How can we help (insights, membership (solutions by role: training, events, research))?-->
+    <section>
+      <h1 id="we-help-intro">How we help make a difference</h1>
+      <h2 id="we-help-text">
+        Here at Centered, we help our clients and members with their workplace transformation that empowers their people.
+    </section>
+    <section>
+      <div class="row" id="solutions-list">
+        <div class="col solutions-box" id="insights">
+          <h4>IMPERATIVE INSIGHTS</h4>
+          <p id="insights-text">At Centered, we are passionate about contributing to the discourse on accelerating workforce well-being by sharing actionable
+            tips and insights on how you and other business leaders can help your people look after their mental health and well-being.
+          </p>
+          <a href="" class="btn btn-info">Register to Receive Updates</a>
         </div>
+        <div class="col solutions-box" id="training">
+          <h4>TRAINING & DEVELOPMENT</h4>
+          <p id="training-text">We provide tailored training solutions for our members to develop a more positive work culture. Find out more
+            about our upcoming course: ISO 45003: New Guidelines on Psychological Health and Safety at Work and Managing Psychosocial Risks
+          </p>
+          <a href="" class="btn btn-success">Request a Call Back</a>
+        </div>
+        <div class="col solutions-box" id="membership">
+          <h4>MEMBERS & COMMUNITY</h4>
+          <p id="membership-text">
+            We invite business leaders to join our networking groups for C-suite executives who are keen to
+            create a people-first organization. We offer you the opportunities to learn from and be inspired 
+            by your peers who have started their journey towards a people-focused business transformation.
+          </p>  
+          <a href="" class="btn btn-warning">Find Out More</a>
+        </div>
+        <div class="col solutions-box" id="events">
+          <h4>CONFERENCE & EVENTS</h4>
+          <p id="events-text">Our public roundtable discussions are delivered face to face and online (virtual). 
+            Example topics include: employees' rising demands for attention to mental health; why is a positive workplace better fo you, 
+            your employees and the company's bottom line.
+          </p>
+          <a href="" class="btn btn-info">Register to Join</a>
+        </div>
+      </div>
     </section>
     <!--8 steps to accelerate mindfulness at work-->
     <section>
-        <h1 id="steps">8 Steps to accelerate mindfulness</h1>
-        <div class="container">
+        <h2 id="eight-steps">8 steps to accelerate workforce well-being and employee mindfulness</h2>
+        <p id="steps-para">
+          Based primarily on Kotter Inc.'s 8 Steps to Accelerate Change in Your Organization, 
+          the methods and principles below provide the framework for business leaders to adopt, build upon and
+          implement actionable strategies geared towards their workforce's well-being and happiness.  
+        
+          These 8-steps focus on the mindsets, attitudes, and behaviours needed to drive the desired change and transformation.
+        </p>  
+        <div class="container col-12 col-6">
             <div class="card-deck">
-                <div class="card">
-                  <img src="{% static 'img/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpeg' %}" class="card-img-top" alt="...">
+              <div class="card">
+                  <img src="{% static 'img/urgency.png' %}" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h4 class="card-title">CREATE</h4>
-                    <h5> a sense of urgency</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4 class="card-title steps-headers">1. CREATE</h4>
+                    <h5 class="steps-headers"> a sense of urgency</h5>
+                    <p class="card-text">
+                      Top leaders must describe an opportunity to accelerate their workforce's well-being that will appeal 
+                      to individuals' heads + hearts, and use this statement to raise a large, urgent army of volunteers. 
+                    </p>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="" class="btn btn-primary">Let's Talk</a>
                   </div>
-                </div>
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
+              </div>
+              <div class="card">
+                  <img src="{% static 'img/coalition.png' %}" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h4 class="card-title">BUILD</h4>
-                    <h5> a guiding coalition</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <h4 class="card-title steps-headers">2. BUILD</h4>
+                    <h5 class="steps-headers"> a guiding coalition</h5>
+                    <p class="card-text">
+                      Represented by managers, staff, senior executives across the company who also represent many job functions, 
+                      the team will be able to receive input about the opportunities and challenges around their people's well-being 
+                      and happiness at work.
+                    </p>
                   </div>
                   <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <a href="" class="btn btn-primary">Let's Talk</a>
                   </div>
-                </div>
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h4 class="card-title">FORM</h4>
-                    <h5> a strategic vision & initiatives</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                  </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
-                  </div>
-                </div>
-                <div class="card">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h4 class="card-title">ENLIST</h4>
-                      <h5> a volunteer army</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                    <div class="card-footer">
-                      <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                  </div>
+              </div>
+              <div class="card">
+                <img src="{% static 'img/form.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title steps-headers">3. FORM</h4>
+                  <h5 class="steps-headers"> a strategic vision & initiatives</h5>
+                  <p class="card-text">
+                    To target and coordinate activities that, if designed and executed fast enough and well enough, 
+                    will make your vision to keep your employees happy, healthy and empowered.
+                  </p>  
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Let's Talk</a>
+              </div>
+            </div> 
+          </div>   
+        </div>
+        <br>
+        <div class="container col-12 col-6">
+          <div class="card-deck">
+            <div class="card">
+              <img src="{% static 'img/enlist.png' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title steps-headers">4. ENLIST</h4>
+                <h5 class="steps-headers"> a volunteer army</h5>
+                <p class="card-text">
+                  Large-scale change can only occur when very significant numbers of employees amass under a common opportunity and drive in the same direction.  
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Let's Talk</a>
+              </div>
             </div>
-
-
+            <div class="card">
+              <img src="{% static 'img/enable.png' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title steps-headers">5. ENABLE ACTION</h4>
+                <h5 class="steps-headers"> by removing barriers</h5>
+                <p class="card-text">
+                  By removing barriers such as inefficient processes and archaic norms, leaders provide
+                  the freedom necessary for employees to work across boundaries and create real impact.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Let's Talk</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="{% static 'img/generate.png' %}" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h4 class="card-title steps-headers">6. GENERATE</h4>
+                <h5 class="steps-headers">short-term wins</h5>
+                <p class="card-text">
+                  Wins are the molecules of results. They must be collected, categorized and
+                  communicated (early and often)  to track progress and energize your volunteers 
+                  to drive change.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="btn btn-primary">Let's Talk</a>
+              </div>
+            </div>
+          </div>
+        </div>      
+        <br>
+        <div class="container col-12 col-6">
+          <div class="card-deck">
+              <div class="card">
+                <img src="{% static 'img/form.png' %}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title steps-headers">7. SUSTAIN ACCELERATION</h4>
+                  <h5 class="steps-headers">Press harder after the first success</h5>
+                  <p class="card-text">
+                    So you have had a few wins. It can be easy to lift your foot off the gas pedal after
+                    experiencing some success. Instead, this is the time to press harder and use those
+                    wins as momentum to further fuel the change.       
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="btn btn-primary">Let's Talk</a>
+                </div>
+              </div>
+              <div class="card">
+                  <img src="{% static 'img/enlist.png' %}" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title steps-headers">8. INSTITUTE CHANGE</h4>
+                    <p class="card-text">
+                      To ensure new behaviors are repeated over the long term, it's important that you define and communicate 
+                      the connections between those behaviors and the organization's success.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="btn btn-primary">Let's Talk</a>
+                  </div>
+              </div>
+          </div>
         </div>
     </section>
+    
+
+
+
+
 {% endblock %}   
 

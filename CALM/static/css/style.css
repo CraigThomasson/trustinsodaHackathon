@@ -1,4 +1,107 @@
 
+
+/* Headings and Logo */
+h1,
+h2,
+#logo {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: black;
+  text-decoration: none;
+}
+
+/* Navigation links */
+#menu {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div {
+  margin-top: 30px;
+}
+
+.img-hero {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* utility */
+
+
+/* Emplyee button */
+
+#button {
+  display: center; 
+  padding: 30px 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #085394;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+#button:hover {background-color: #3a78d4}
+
+#button:active {
+  background-color: #5689d6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.yellow-image {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.yellow-image .btn {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+/* footer */
+footer {
+    margin-top: 50px;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks>li {
+    display: inline;
+  }
+  
+  .social-networks i {
+    font-size: 2rem;
+    margin: 1px;
+    padding: 5%;
+    color: black;
+  }
+
+ul {
+    color: rgb(243, 152, 152) !important;
+}
+
 /*------------------------------------------------------- navbar */
 #nav-ul {
     margin-bottom: 20px;
