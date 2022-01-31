@@ -6,11 +6,6 @@ body {
 }
 
 /* Solutions Page styling */
-#sol-intro {
-    display: flex;
-    justify-content: center;
-}
-
 #we-help-intro {
     display: flex;
     justify-content: center;
@@ -44,16 +39,36 @@ body {
     background-color: #f7a302;
 }
 
+#insights-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
+}
+
 #training {
     background-color: #3a9ffb;
+}
+
+#training-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
 }
 
 #membership {
     background-color: #7076ca;
 }
 
+#membership-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
+}
+
 #events {
     background-color: olivedrab;
+}
+
+#events-text {
+    font-size: 1rem;
+    padding-top: 1.8rem;
 }
 
 #eight-steps {
