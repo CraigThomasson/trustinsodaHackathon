@@ -1,92 +1,103 @@
-ul {
-    color: red !important;
-}
-body {
-    background-color: whitesmoke;
+
+/*------------------------------------------------------- navbar */
+#nav-ul {
+    margin-bottom: 20px;
+    margin-left: 30px;
 }
 
-/* Solutions Page styling */
-#we-help-intro {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 2rem;
-    font-size: 3rem;
+#links-footer {
+    margin-right: 10px;
+}
+
+#footer {
+    background-color: #085394;
+    color: white;
+
+    margin-top: 20px;
+}
+
+/*------------------------------------------------------- about*/
+#about-container {
     color: #085394;
+    font-family: 'inter', serif;
+    font-weight: 600;
 }
 
-#we-help-text {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 3rem;
+#about-container p{
+    
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 20px;
 }
 
-#solutions-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.solutions-box {
-    font-size: 2rem;
-    text-align: center;
-    padding: 1rem;  
-}
-
-#insights {
-    background-color: #f7a302;
-}
-
-#insights-text {
-    font-size: 1rem;
-    padding-top: 1.8rem;
-}
-
-#training {
-    background-color: #3a9ffb;
-}
-
-#training-text {
-    font-size: 1rem;
-    padding-top: 1.8rem;
-}
-
-#membership {
-    background-color: #7076ca;
-}
-
-#membership-text {
-    font-size: 1rem;
-    padding-top: 1.8rem;
-}
-
-#events {
-    background-color: olivedrab;
-}
-
-#events-text {
-    font-size: 1rem;
-    padding-top: 1.8rem;
-}
-
-#eight-steps {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 3rem;
-    font-size: 2.5rem;
+#about-container .card-title{
     color: #085394;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+/* ------- Allauth form formatting ------- */
+
+.allauth-form-inner-content p {
+    margin-top: 1.5rem; /* mt-4 */
+    color: #6c757d; /* text-secondary */
 }
 
-#steps-para {
-    display: flex;
-    justify-content: center;
-    margin: 2rem;
-    font-size: 1.5rem;
+.allauth-form-inner-content input {
+    border-color: #000;
+    font-size: 0.9rem;
 }
 
-.steps-headers {
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
+.allauth-form-inner-content input::placeholder {
+    color: #aab7c4;
+}
+
+.allauth-form-inner-content button,
+.allauth-form-inner-content input[type='submit'] {
+	/* btn */
+	display: inline-block;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #085394;
+    border: 1px solid #085394;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+
+    /* standard bootstrap btn transitions */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.allauth-form-inner-content button:hover,
+.allauth-form-inner-content input[type='submit']:hover {
+	color: #085394;
+    background-color: #fff;
+    border-color: #222;
+}
+
+.allauth-form-inner-content .form-group,
+.allauth-form-inner-content a {
+	color: #085394; /* text-info */
+    font-weight: 600;
+}
+
+  /* to overide main btn-fc class */
+.allauth-form-inner-content a{
+    border-color: #222;
+}
+
+.allauth-form-inner-content a:hover {
     color: #085394;
+    border-color: #222;
 }
