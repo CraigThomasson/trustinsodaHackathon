@@ -11,12 +11,28 @@ body {
     justify-content: center;
 }
 
-#eight-steps {
+#we-help-intro {
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 2rem;
     font-size: 3rem;
+    color: #085394;
+}
+
+#we-help-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+}
+
+#eight-steps {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3rem;
+    font-size: 2.5rem;
     color: #085394;
 }
 
@@ -26,3 +42,4 @@ body {
     margin: 2rem;
     font-size: 1.5rem;
 }
+
